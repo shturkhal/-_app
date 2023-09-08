@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //MARK: elements
+    
     enum ColorLight {
         case red, yellow, green
     }
@@ -31,13 +33,15 @@ class ViewController: UIViewController {
         
     }
     
+    //MARK: functions
+    
     func createStackView() {
         colorRedView.layer.cornerRadius = 70
         colorYellowView.layer.cornerRadius = 70
         colorGreenView.layer.cornerRadius = 70
     }
 
-    
+    //MARK: button
     
     @IBAction func push(_ sender: Any) {
         
